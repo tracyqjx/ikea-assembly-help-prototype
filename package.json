@@ -1,0 +1,9 @@
+{
+  "name": "ikea-assembly-help-prototype",
+  "private": true,
+  "version": "0.2.0",
+  "description": "Mock UI prototype for in-app assembly help (chat + 3D).",
+  "scripts": {
+    "start": "python3 -m http.server 4173 --bind 127.0.0.1"
+  }
+}
