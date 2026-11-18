@@ -2203,3 +2203,22 @@ a {
     transition: none !important;
   }
 }
+
+/* Billie profile photo, shared by replies and the thinking indicator. */
+.bubble--agent .bubble-role {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  opacity: 1;
+  margin-bottom: 8px;
+}
+.bubble--agent .bubble-role::before {
+  content: "";
+  display: block;
+  flex: 0 0 36px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #fff url('/assets/billie-avatar.png') center / cover no-repeat;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
